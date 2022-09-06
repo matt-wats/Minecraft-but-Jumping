@@ -1,0 +1,33 @@
+name: JumpPlug
+main: io.github.amutau.JumpPlug.JumpPlug
+version: 0.0.1
+author: amutau
+api-version: 1.16
+
+commands:  
+  jumpStart:
+   description: starts the jumpin
+   aliases:
+   - wamuBamu
+   permission: JumpPlug.jumpS
+   permission-message: You need jumpStart perm
+   usage: /<command>
+
+  jumpToggle:
+   description: stops the jumpin
+   aliases:
+   - ohfuck
+   - ohno
+   permission: JumpPlug.jumpS
+   permission-message: You need jumpStop perm
+   usage: /<command>
+   
+ 
+permissions:
+  
+  JumpPlug.jumpS:
+    description: starts the jump
+    default: op
+
+  
+  
